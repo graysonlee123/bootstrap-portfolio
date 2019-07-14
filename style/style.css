@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
 
+.max-width {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* General */
 
 body {
@@ -8,9 +14,9 @@ body {
 
 h1 {
     font-family: 'Rubik';
-    margin: 1em 0;
-    padding-bottom: .2em;
-    border-bottom: 1px solid gray;
+    margin: .8em 0;
+    padding-bottom: .4em;
+    border-bottom: 1px solid lightgray;
 }
 
 hr {
@@ -24,11 +30,6 @@ hr {
 
 /* About page */
 
-#about-col {
-    margin: 0 auto;
-    max-width: 980px;
-}
-
 #about-photo {
     width: 100%;
     height: auto;
@@ -40,3 +41,14 @@ hr {
     min-height: calc(100vh - 88px);
 }
 
+@media screen and (max-width: 768px) {
+    #contact-aside {
+        text-align: center !important;
+        padding: 20px 20%;
+    }
+    #contact-button {
+        width: 100%;
+        display: block;
+        margin-top: 40px;
+    }
+}

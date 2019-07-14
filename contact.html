@@ -27,11 +27,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <span class="navbar-text">
@@ -40,40 +40,46 @@
         </div>
     </nav>
 
-    <div class="row-12">
-        <div id="about-col" class="col-12">
+    <div class="row-12 max-width">
+        <div class="col">
             <div class="row">
-                <div class="col">
-                    <h1>Portfolio</h1>
+                <div id="about-col" class="col-12">
+                    <div class="row">
+                        <div class="col">
+                            <h1>Contact Me</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <figure class="figure">
-                        <img src="./images/mountains1.jpg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                    </figure>
+                <div class="col-12 col-md-8 mb-5">
+                    <form>
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email address</label>
+                            <input type="email" class="form-control" id="contact-email"
+                                placeholder="name@example.com">
+                            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else
+                                without permission.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-text-area">Example textarea</label>
+                            <textarea class="form-control" id="contact-text-area" rows="6"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="contact-button">Submit</button>
+                    </form>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <figure class="figure">
-                        <img src="./images/mountains2.jpg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                    </figure>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <figure class="figure">
-                        <img src="./images/mountains3.jpg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                    </figure>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <figure class="figure">
-                        <img src="./images/mountains4.jpg" class="figure-img img-fluid rounded" alt="...">
-                        <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                    </figure>
+                <div class="col-12 col-md-4 text-muted text-right" id="contact-aside">
+                    <p>Please feel free to contact me at any time. Please provide your name, email, and reason for contact.</p>
+                    <p>I usually respond within a day or two.</p>
+                    <a href="#">Link to somewhere</a>
                 </div>
             </div>
         </div>
+
     </div>
 
 </body>
