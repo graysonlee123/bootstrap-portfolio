@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+
+/* General */
+
 body {
     background:rgb(236, 236, 236);
 }
+
+h1 {
+    font-family: 'Rubik';
+    margin: 1em 0;
+    padding-bottom: .2em;
+    border-bottom: 1px solid gray;
+}
+
+/* About page */
+
+#about-col {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+#about-photo {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+
+#page-content {
+    min-height: calc(100vh - 88px);
+}
+
