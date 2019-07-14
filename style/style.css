@@ -13,6 +13,15 @@ h1 {
     border-bottom: 1px solid gray;
 }
 
+hr {
+    margin: 20px 0;
+}
+
+/* Nav Changes */
+#nav-container {
+    background: #212529;
+}
+
 /* About page */
 
 #about-col {
