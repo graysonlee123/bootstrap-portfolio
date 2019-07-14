@@ -28,6 +28,70 @@ hr {
     background: #212529;
 }
 
+/* Portfolio */
+
+.single-project-container {
+    display: block;
+    position: relative;
+    background: #FFA69E;
+    width: 100%;
+}
+
+.single-project-container figure img {
+    max-width: 100%;
+    min-height: 100%;
+    position: relative;
+    opacity: 1;
+    transition: opacity 300ms ease;
+    line-height: 100%;
+}
+
+.single-project-container figure figcaption {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.single-project-container figure figcaption h2 {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 300ms ease;
+}
+
+.single-project-container figure figcaption p {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 300ms ease;
+}
+
+.single-project-container:hover figure img {
+    opacity: 0.6;
+}
+
+.single-project-container:hover figure figcaption p {
+    opacity: 1.0;
+    transform: translateY(0);
+}
+
+.single-project-container:hover figure figcaption h2 {
+    opacity: 1.0;
+    transform: translateY(0);
+}
+
+.single-project-text {
+
+}
+
+.single-project-mobile-desc {
+    padding: 0 10px;
+    display: none;
+}
+
 /* About page */
 
 #about-photo {
@@ -51,4 +115,38 @@ hr {
         display: block;
         margin-top: 40px;
     }
+}
+
+@media screen and (max-width: 576px) {
+    /* .single-project-mobile-desc {
+        display: block;
+    }
+    .single-project-container figure figcaption {
+        visibility: hidden;
+    }
+    .single-project-container figure {
+        margin-bottom: 16px !important;
+    } */
+
+    .single-project-container {
+        background: none;
+    }
+    .single-project-container figure figcaption {
+        position: static;
+        padding: 10px;
+    }
+
+    .single-project-container figure img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .single-project-container figure figcaption h2,
+    .single-project-container figure figcaption p {
+        opacity: 1;
+        transform: translateY(0);
+        margin-bottom: 3px;
+        text-align: left;
+        color: #212529;
+    } 
 }
