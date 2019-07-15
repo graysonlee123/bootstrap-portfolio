@@ -18,75 +18,81 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Grayson Gantek</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-            <span class="navbar-text">
-                My Title Here
-            </span>
-        </div>
-    </nav>
-
-    <div class="row-12 max-width">
-        <div class="col">
-            <div class="row">
-                <div id="about-col" class="col-12">
-                    <div class="row">
-                        <div class="col">
-                            <h1>Contact Me</h1>
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Grayson Gantek</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    My Title Here
+                </span>
+            </div>
+        </nav>
+    
+        <div class="row-12 max-width">
+            <div class="col">
+                <div class="row">
+                    <div id="about-col" class="col-12">
+                        <div class="row">
+                            <div class="col">
+                                <h1>Contact Me</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-8 mb-5">
-                    <form>
-                        <div class="form-group">
-                            <label for="contact-name">Name</label>
-                            <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="contact-email">Email address</label>
-                            <input type="email" class="form-control" id="contact-email"
-                                placeholder="name@example.com">
-                            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else
-                                without permission.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="contact-text-area">Message</label>
-                            <textarea class="form-control" id="contact-text-area" rows="6"></textarea>
-                        </div>
-                        <button type="button" class="btn btn-primary" id="contact-button">Submit</button>
-                    </form>
+                <div class="row">
+                    <div class="col-12 col-md-8 mb-5">
+                        <form>
+                            <div class="form-group">
+                                <label for="contact-name">Name</label>
+                                <input type="text" class="form-control" id="contact-name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email address</label>
+                                <input type="email" class="form-control" id="contact-email"
+                                    placeholder="name@example.com">
+                                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else
+                                    without permission.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-text-area">Message</label>
+                                <textarea class="form-control" id="contact-text-area" rows="6"></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary" id="contact-button">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-4 text-muted text-right" id="contact-aside">
+                        <p>Please feel free to contact me at any time. Please provide your name, email, and reason for contact.</p>
+                        <p>I usually respond within a day or two.</p>
+                        <a href="#">Link to somewhere</a> <br/> <br/>
+                        <hr>
+                        <p>Find me on these sites:</p>
+                        <a href="http://www.behance.net/pizzaThis" target="_blank" class="social-icon"><i class="fab fa-behance-square" style="font-size: 3rem; padding-right: 10px;"></i></a>
+                        <a href="http://www.linkedin.com/in/graysongantek" target="_blank"><i class="fab fa-linkedin" style="font-size: 3rem;"></i></a>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 text-muted text-right" id="contact-aside">
-                    <p>Please feel free to contact me at any time. Please provide your name, email, and reason for contact.</p>
-                    <p>I usually respond within a day or two.</p>
-                    <a href="#">Link to somewhere</a> <br/> <br/>
-                    <hr>
-                    <p>Find me on these sites:</p>
-                    <a href="http://www.behance.net/pizzaThis" target="_blank" class="social-icon"><i class="fab fa-behance-square" style="font-size: 3rem; padding-right: 10px;"></i></a>
-                    <a href="http://www.linkedin.com/in/graysongantek" target="_blank"><i class="fab fa-linkedin" style="font-size: 3rem;"></i></>
-                </div>
             </div>
+    
         </div>
-
     </div>
+
+    <footer class="bg-dark text-center text-light text-muted py-4">
+        Copyright &copy; 2019 Grayson Gantek.
+    </footer>
 
 </body>
 
