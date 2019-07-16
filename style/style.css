@@ -55,6 +55,11 @@ hr {
     border-radius: 3px;
 }
 
+div .single-project-container:hover {
+    color: #343a40;
+    text-decoration: none;
+}
+
 .single-project-container figure img {
     max-width: 100%;
     min-height: 100%;
