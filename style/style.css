@@ -50,7 +50,7 @@ hr {
 .single-project-container {
     display: block;
     position: relative;
-    background: #FFA69E;
+    background: #343a40;
     width: 100%;
     border-radius: 3px;
 }
@@ -89,7 +89,7 @@ hr {
 }
 
 .single-project-container:hover figure img {
-    opacity: 0.3;
+    opacity: 0;
 }
 
 .single-project-container:hover figure figcaption p {
