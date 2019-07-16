@@ -165,4 +165,7 @@ hr {
         color: #212529;
         text-decoration: none !important;
     }  
+    .single-project-container:hover figure img {
+        opacity: 1;
+    }
 }
