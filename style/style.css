@@ -142,6 +142,20 @@ hr {
     }
 }
 
+@media screen and (max-width: 960px) {
+    .single-project-container figure figcaption {
+        padding: 20px;
+    }
+
+    .single-project-container figure figcaption h2 {
+        font-size: 20px;
+    }
+
+    .single-project-container figure figcaption p {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .single-project-container {
         background: none;
@@ -149,6 +163,7 @@ hr {
     .single-project-container figure figcaption {
         position: static;
         padding: 10px;
+        padding-left: 0px;
     }
 
     .single-project-container figure img {
