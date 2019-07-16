@@ -118,6 +118,12 @@ hr {
     height: auto;
 }
 
+/* Contact */
+
+.social-icon {
+    transition: all 300ms ease;
+}
+
 /* Footer */
 
 #page-content {
