@@ -1,2 +1,4 @@
 # Bootstrap-Portfolio
-Portfolio using Bootstrap practice.
+Portfolio using Bootstrap.
+
+Maintained and created by graysonlee123.
