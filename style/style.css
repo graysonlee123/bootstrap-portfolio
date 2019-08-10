@@ -123,6 +123,7 @@ div .single-project-container:hover {
 
 .social-icon {
     transition: all 300ms ease;
+    padding-left: 12px;
 }
 
 /* Footer */
