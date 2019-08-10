@@ -4,6 +4,10 @@ const dropdown = $("#dropdown");
 
 const projLinks = [
     {
+        name: "Hearthstone Helper",
+        url: "https://github.com/graysonlee123/Hearthsone-Helper"
+    },
+    {
         name: "Giphy Search",
         url: "https://github.com/graysonlee123/Giphy-Search"
     },
