@@ -8,6 +8,10 @@ const projLinks = [
         url: "https://github.com/graysonlee123/Hearthsone-Helper"
     },
     {
+        name: "Liri Node App",
+        url: "https://github.com/graysonlee123/liri-node-app"
+    },
+    {
         name: "Giphy Search",
         url: "https://github.com/graysonlee123/Giphy-Search"
     },
