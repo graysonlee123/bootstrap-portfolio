@@ -79,6 +79,10 @@ div .single-project-container:hover {
     color: white;
     position: absolute;
     top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .single-project-container figure figcaption h2 {
