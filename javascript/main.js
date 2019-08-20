@@ -2,6 +2,12 @@ const dropdown = $("#dropdown");
 
 const projects = [
     {
+        name: "Friend Match",
+        url: "https://github.com/graysonlee123/Friend-Finder",
+        description: "Full-stack app to match with common friends based on a survey. Utilizes a custom API and DOM manipulation.",
+        imagePath: "./images/friendMatch.jpg"
+    },
+    {
         name: "Hearthstone Helper",
         url: "https://github.com/graysonlee123/Hearthsone-Helper",
         description: "An all-in-one site for watching and learning about Hearthstone.",
