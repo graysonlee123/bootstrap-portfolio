@@ -1,8 +1,6 @@
-console.log("Hello world")
-
 const dropdown = $("#dropdown");
 
-const projLinks = [
+const projects = [
     {
         name: "Hearthstone Helper",
         url: "https://github.com/graysonlee123/Hearthsone-Helper",
@@ -41,7 +39,7 @@ const projLinks = [
     }
 ];
 
-projLinks.forEach(function(item, i) {
-    dropdown.append(`<a href="${projLinks[i].url}"target="_blank" class="dropdown-item">${projLinks[i].name}</a>`)
+projects.forEach(function(item, i) {
+    dropdown.append(`<a href="${projects[i].url}"target="_blank" class="dropdown-item">${projects[i].name}</a>`)
 })
 

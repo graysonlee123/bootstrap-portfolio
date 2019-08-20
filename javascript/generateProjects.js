@@ -1,5 +1,5 @@
 function generateProjects() {
-    projLinks.forEach( (item, i) => {
+    projects.forEach( (item, i) => {
         $("#projectsContainer").append(`<div class="col-12 col-sm-6">
             <a href="${item.url}" target="_blank" class="single-project-container">
             <figure class="mb-4">
@@ -9,6 +9,6 @@ function generateProjects() {
                     <p class="text-muted">${item.description}</p>
                 </figcaption>
             </figure>
-        </div>`)
+        </div>`);
     });
 }
