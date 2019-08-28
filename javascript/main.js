@@ -2,6 +2,12 @@ const dropdown = $("#dropdown");
 
 const projects = [
     {
+        name: "Bamazon",
+        url: "https://github.com/graysonlee123/Bamazon",
+        description: "Bamazon is a reatil website that allows interaction with fake products and departments in a MySQL database.",
+        imagePath: "./images/bamazon.jpg"
+    },
+    {
         name: "Friend Match",
         url: "https://github.com/graysonlee123/Friend-Finder",
         description: "Full-stack app to match with common friends based on a survey. Utilizes a custom API and DOM manipulation.",
