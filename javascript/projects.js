@@ -2,7 +2,7 @@ const projects = [
     {
         name: "Flutter",
         url: {
-            github: "https://github.com/Jyouya/Flutter",
+            github: "https://github.com/graysonlee123/Flutter",
             live: "https://obscure-dawn-10331.herokuapp.com/"
         },
         description: "Flutter is a social media platform in which the main form of communication is by way of Emoji.",
