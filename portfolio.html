@@ -8,7 +8,7 @@
     <title>My Bootstrap Portfolio - Portfolio</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -18,7 +18,7 @@
 
 <body>
     <div class="wrapper">
-        
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="./index.html">Grayson Gantek</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -34,15 +34,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Projects
-                        </a>
-                        <div class="dropdown-menu" id="dropdown" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./portfolio.html">All Projects</a>
-                            <div class="dropdown-divider"></div>
-                        </div>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                 </ul>
                 <div class="dropdown-divider"></div>
@@ -52,15 +45,31 @@
             </div>
         </nav>
 
-        <div class="row-12 max-width">
-            <div id="about-col" class="col-12">
+        <div class="container max-width">
+            <!-- <div id="about-col" class="col-12">
                 <div class="row">
                     <div class="col">
                         <h1>Portfolio</h1>
                     </div>
                 </div>
                 <div class="row" id="projectsContainer">
-                    <!-- Projects appear here -->
+            </div> -->
+            <div class="row">
+                <div class="col-12">
+                    <h1>Portfolio</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="projectsContainer" class="card-deck">
+                    <!-- <div class="card">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -81,11 +90,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="./javascript/projects.js"></script>
-    <script src="./javascript/main.js"></script>
     <script src="./javascript/generateProjects.js"></script>
-    <script>
-        generateProjects();
-    </script>
 </body>
 
 </html>

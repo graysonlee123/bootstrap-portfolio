@@ -116,6 +116,63 @@ div .single-project-container:hover {
     display: none;
 }
 
+/* New */
+
+.project-container {
+    width: 50%;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-container img {
+    object-fit: cover;
+    transition: all 300ms ease;
+}
+
+.project-container:hover img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    left: 190px;
+    top: 30px;
+}
+
+.project-information {
+    color: white;
+    padding-top: 180px;
+    text-align: center;
+}
+
+.fill-project-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.button {
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(0,0,0,0.13);
+    border-bottom: 2px solid rgba(0,0,0,0.25);
+}
+
+.button:hover {
+    border-bottom: none;
+    transform: translateY(4px);
+}
+
+.card-deck {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 2.5rem;
+    column-gap: .5rem;
+    text-align: center;
+}
+
 /* About page */
 
 #about-photo {
