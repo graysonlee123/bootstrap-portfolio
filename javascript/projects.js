@@ -1,5 +1,14 @@
 const projects = [
     {
+        name: "Articulate",
+        url: {
+            github: "https://github.com/graysonlee123/mongo-scraper",
+            live: "https://articulate-mongo-scraper.herokuapp.com/"
+        },
+        description: "Articulate is a website that users can load, save, and comment on web development articles. It utilizes Cheerio and MongoDB.",
+        imagePath: "./images/articulate.jpg",
+    },
+    {
         name: "Flutter",
         url: {
             github: "https://github.com/graysonlee123/Flutter",
