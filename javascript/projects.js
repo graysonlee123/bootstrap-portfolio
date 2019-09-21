@@ -9,6 +9,15 @@ const projects = [
         imagePath: "./images/articulate.jpg",
     },
     {
+        name: "Memory Game",
+        url: {
+            github: "https://github.com/graysonlee123/memory-game",
+            live: "https://graysonlee123.github.io/memory-game"
+        },
+        description: "A React webpage memory game. It uses React's components with local states. The components are conditionally rendered, and the state of components change throughout the game.",
+        imagePath: "./images/memory-game.jpg",
+    },
+    {
         name: "Flutter",
         url: {
             github: "https://github.com/graysonlee123/Flutter",
